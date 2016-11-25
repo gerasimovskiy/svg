@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+header {
+	width: 100%;
+	height: 1072px;
+	background: url(../img/hero-bg.jpg) 100% no-repeat;
+	display: flex;
+	position: relative;
+}
+.header-logo {
+	width: 69px;
+	height: 71px;
+	position: absolute;
+	left: 46%;
+    top: 20%;
+}
+.logo,
+.logo-footer,
+.scroll,
+.design,
+.development,
+.management {
+	width: 100%;
+	height: 100%;
+}
+.header-text {
+	margin: auto;
+}
+.header-text__h1 {
+	text-align: center;
+	font-size: 54px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-bottom: 8%;
+}
+.header-text__p {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 2;
+}
+.header-scroll {
+	width: 23px;
+	height: 37px;
+	position: absolute;
+	left: 48%;
+  bottom: 10%;
+}
+.about {
+	width: 100%;
+	height: 630px;
+	position: relative;
+	display: flex;
+}
+.about-text,
+.service-text,
+.wedo-text,
+.contact-text {
+	width: 50%;
+	border: 1px solid black;
+	margin: auto;
+}
+.about-text__one-part,
+.about-text__two-part {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	padding: 50px 75px 0 75px;
+}
+.about-text__two-part {
+	padding: 40px 110px 10px 110px;
+}
+.about-title {
+	position: absolute;
+	top: 21.5%;
+	left: 32%;
+	width: 35%;
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	text-align: center;
+}
+.service {
+	width: 100%;
+	height: 488px;
+	background: url(../img/services.jpg) 100% no-repeat;
+	display: flex;
+	position: relative;
+}
+.service-text {
+	border-color: white;
+	text-align: center;
+	padding: 50px 75px 10px 75px;
+	border-top: none;
+}
+.service-border-top-left{
+	width: 11%;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	    top: 29%;
+    left: 25%;
+}
+.service-border-top-right{
+	width: 12%;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	    top: 29%;
+    right: 25%;
+}
+.service-text p {
+	color: white;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.service-title {
+	position: absolute;
+	top: 22.5%;
+	left: 32%;
+	width: 35%;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	text-align: center;
+	color: white;
+}
+.wedo {
+	width: 100%;
+	height: 1410px;
+	display: flex;
+	position: relative;
+}
+.wedo-text {
+	height: 85%;
+}
+.wedo-text__design,
+.wedo-text__development,
+.wedo-text__prod-man {
+	position: relative;
+	padding-top: 35%;
+}
+.wedo-text__development,
+.wedo-text__prod-man {
+}
+.wedo-icon-design,
+.wedo-icon-development,
+.wedo-icon-management {
+	width: 80px;
+	height: 83px;
+	position: absolute;
+	top: 30%;
+	left: 44%;
+}
+.wedo-icon-development {
+	width: 79px;
+	height: 76px;
+}
+.wedo-icon-management {
+	width: 79px;
+	height: 91px;
+}
+.wedo-text__design h1, 
+.wedo-text__development h1, 
+.wedo-text__prod-man h1{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;	
+}
+.wedo-text__design p, 
+.wedo-text__development p, 
+.wedo-text__prod-man p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 2;
+	margin-top: 30px;
+}
+.wedo-title {
+	position: absolute;
+	top: 5%;
+	left: 33%;
+	width: 35%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	background-color: white;
+}
+.our-works {
+	width: 100%;
+	height: 483px;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-align-content: space-between;
+	        align-content: space-between;
+	color: white;
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 700;
+}
+.our-works__img1 {
+	width: 24.5%;
+	height: 237px;
+	background: url(../img/5.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.our-works__img2 {
+	width: 49.5%;
+	height: 237px;
+	background: url(../img/6.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.our-works__img3 {
+	width: 24.5%;
+	height: 237px;
+	background: url(../img/4.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.our-works__img4 {
+	width: 24.5%;
+	height: 237px;
+	background: url(../img/2.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.our-works__img5 {
+	width: 49.5%;
+	height: 237px;
+	background: url(../img/1.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.our-works__img6 {
+	width: 24.5%;
+	height: 237px;
+	background: url(../img/3.png) no-repeat;
+	padding: 13% 0% 0% 2%;
+}
+.contact {
+	width: 100%;
+	height: 465px;
+	display: flex;
+	position: relative;
+}
+.contact-text p {
+	text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 8% 0;
+}
+.contact-title {
+	position: absolute;
+	top: 15%;
+	left: 33%;
+	width: 35%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	background-color: white;
+}
+.contact-text a {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	padding: 15px 0;
+	color: white;
+	width: 50%;
+	height: 50px;
+	margin: 0 auto 6% auto;
+	background-color: #3C3C3C;
+}
+footer {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+}
+.footer-logo {
+	width: 38px;
+	height: 38px;
+	    top: -14%;
+    position: absolute;
+    left: 36%;
+}
